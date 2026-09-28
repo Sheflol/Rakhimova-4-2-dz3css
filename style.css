@@ -1,0 +1,125 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #f0f0f0;
+    color: #222222;
+    margin: 0;
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 25px 35px;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #444444;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 5px;
+}
+
+.toc {
+    background-color: #fafafa;
+    border: 1px solid #dddddd;
+    padding: 15px 25px;
+    margin-bottom: 30px;
+}
+
+.toc a {
+    color: #2a6bb0;
+}
+
+.term {
+    background-color: #fafafa;
+    border-left: 4px solid #888888;
+    padding: 12px 18px;
+    margin-bottom: 20px;
+}
+
+.term dt {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.term dd {
+    margin: 5px 0 0 0;
+}
+
+.up {
+    font-size: 13px;
+    color: #777777;
+}
+
+.riddle {
+    background-color: #fafafa;
+    border: 1px solid #dddddd;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+}
+
+.riddle .num {
+    background-color: #555555;
+    color: #ffffff;
+    padding: 2px 8px;
+    margin-right: 8px;
+}
+
+.riddle a {
+    display: inline-block;
+    background-color: #444444;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 6px 15px;
+    margin-top: 5px;
+}
+
+.riddle a:hover {
+    background-color: #222222;
+}
+
+.answer {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 30px 40px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.answer .word {
+    font-size: 26px;
+    font-weight: bold;
+    color: #222222;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+.answer a {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #444444;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 20px;
+}
+
+.answer a:hover {
+    background-color: #222222;
+}
+
+.signature {
+    text-align: right;
+    font-family: "Courier New", monospace;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #cccccc;
+}
